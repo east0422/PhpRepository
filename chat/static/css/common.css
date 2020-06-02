@@ -1,0 +1,33 @@
+ /* 通用 */
+.layim-chat-tool {
+  display: none !important;
+}
+
+/* 移动端 */
+@media screen and (max-width: 768px) {
+  .layim-chat-back {
+    height: 30px;
+    width: auto;
+    background: url('../../layui/images/client.png') no-repeat center;
+    background-size: contain;
+    border-radius: 9999px;
+  }
+  .layim-title {
+    height: 40px !important;
+    line-height: 40px !important;
+  }
+  .layim-chat-main, .layim-content, .layui-layim {
+    top: 40px !important;
+  }
+  .layim-chat-footer {
+    margin-bottom: 20px;
+  }
+  .layui-unselect {
+    user-select: text;
+    -webkit-user-select: text;
+  }
+  .layim-content {
+    background-image: url(../../layui/css/modules/layim/skin/4.jpg);
+    background-size: cover;
+  }
+}
