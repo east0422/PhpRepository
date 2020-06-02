@@ -13,5 +13,8 @@ layim聊天测试
 ### yishiyuan
 伊世缘
 
+### wxpay
+微信原生支付
+
 
 
