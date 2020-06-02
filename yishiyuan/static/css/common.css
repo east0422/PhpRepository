@@ -1,0 +1,14 @@
+ /* 通用css */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.ysy-title {
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  text-shadow: 0 0 1px #0e947a;
+  margin-top: 15px;
+}
