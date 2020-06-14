@@ -1,0 +1,35 @@
+ /* 通用css */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  background-color: #f1f1f3;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.full-screen {
+  height: 100%;
+  width: 100%;
+}
+.fill {
+  flex: 1;
+}
+.vcontainer {
+  display: flex;
+  flex-direction: column;
+}
+.hcontainer {
+  display: flex;
+  flex-direction: row;
+}
+.hcenter {
+  text-align: center;
+}
+.vcenter {
+  align-items: center;
+}
